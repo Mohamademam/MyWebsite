@@ -333,4 +333,36 @@ section {
         padding-left: 0; /* Remove padding on the left for the text */
         text-align: center; /* Center the text */
     }
+
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation {
+        display: none; /* Hide the navigation links in the header */
+    }
+
+    .navigation-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navigation-mobile a {
+        color: #3F2305;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        font-size: 1.6em;
+        cursor: pointer;
+    }
+
+    .menu-icon.active {
+        color: #522915;
+    }
 }
